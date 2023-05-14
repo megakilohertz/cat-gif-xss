@@ -1,4 +1,7 @@
-if (typeof catvax == "undefined") window.setInterval(cat, 1000);
+if (typeof catvax == "undefined") 
+  let spawner = window.setInterval(cat, 1000);
+else
+  console.log("cats spawned!");
 
 function cat() {
   let img = document.createElement("img");
