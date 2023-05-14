@@ -9,7 +9,7 @@ function cat() {
   img.style.width = "10vw";
   img.style.left = Math.floor(Math.random() * 90) + "vw";
   img.style.bottom = Math.floor(Math.random() * 90) + "vh";
-  document.getElementById("history").appendChild(img);
+  document.getElementsByTagName('html')[0].appendChild(img);
 }
 
 function gifUrl() {
