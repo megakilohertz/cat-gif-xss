@@ -1,4 +1,4 @@
-window.setInterval(cat, 1000);
+if (typeof catvax == "undefined") window.setInterval(cat, 1000);
 
 function cat() {
   let img = document.createElement("img");
