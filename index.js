@@ -1,5 +1,5 @@
 if (typeof catvax == "undefined") 
-  let spawner = window.setInterval(cat, 1000);
+  window.setInterval(cat, 1000);
 else
   console.log("cats spawned!");
 
