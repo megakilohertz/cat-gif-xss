@@ -17,5 +17,5 @@ function cat() {
 
 function gifUrl() {
   let gifs = 10;
-  return "https://megakilohertz.github.io/cat-gif-xss/gifs/" + Math.floor(Math.random() * (gifs + 1)) + ".gif";
+  return "https://megakilohertz.github.io/cat-gif-xss/gifs/" + ( Math.floor(Math.random() * gifs) + 1 ) + ".gif";
 }
